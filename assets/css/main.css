@@ -1155,7 +1155,7 @@ section,
   clip-path: inset(0);
 }
 
-.call-to-action img {
+.img-call-to-action {
   position: fixed;
   top: 0;
   left: 0;

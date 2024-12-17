@@ -1574,12 +1574,6 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.footer-about img {
-  display: block; /* Asegura que la imagen se muestre como un bloque, no en línea */
-  margin-top: 10px; /* Añade espacio entre la palabra "Cobertura" y la imagen */
-  max-width: 100%; /* Hace que la imagen se ajuste al tamaño del contenedor */
-}
-
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/

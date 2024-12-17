@@ -736,7 +736,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 99999;
   background-color: var(--accent-color);
@@ -1428,6 +1428,7 @@ section,
   background: color-mix(in srgb, var(--background-color), transparent 92%);
 }
 
+
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
@@ -1573,6 +1574,12 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.footer-about img {
+  display: block; /* Asegura que la imagen se muestre como un bloque, no en línea */
+  margin-top: 10px; /* Añade espacio entre la palabra "Cobertura" y la imagen */
+  max-width: 100%; /* Hace que la imagen se ajuste al tamaño del contenedor */
+}
+
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
@@ -1706,4 +1713,9 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.fst-italic {
+  text-align: justify;
+  text-align-last: justify;
 }
